@@ -1,0 +1,114 @@
+: raiz {
+    --vermelho : # E50914 ;
+    --preta : # 141414 ;
+}
+
+* {
+    margem : 0 ;
+    preenchimento : 0 ;
+    box-sizing : border-box;
+}
+
+/*elementos base*/
+corpo {
+   fundo :  var ( --preta );
+   font-family :  'Arial' , Times , serif;
+   cor : branco;
+}
+
+
+cabeçalho . recipiente {
+    exibição : flexível;
+    flex-direction : linha;
+    align-items : centro;
+    justificar-conteúdo : espaço entre;
+    
+}
+
+cabeçalho . logotipo {
+    margem esquerda :  5 px ;
+    cor :  var ( --vermelho );
+    font-family :  'Arial Black' , Times;
+    tamanho da fonte : 40px ;
+}
+
+cabeçalho  nav  a {
+    decoração de texto : nenhuma;
+    cor : #AAA ; _
+    margem direita :  10 px ;
+}
+
+
+header  nav  a : hover {
+    cor : #fff ; _
+}
+
+/*diretor do filme*/
+. diretor de filme {
+    tamanho da fonte : 16 px ;
+    fundo :  gradiente linear ( rgba ( 7 ,  7 ,  7 ,  0,205 ) , rgba ( 12 ,  12 ,  12 ,  0,26 ) 100 % ) , url ( '/img/capa-house.jpg' );
+    altura : 400px ; _
+    tamanho do fundo : capa;
+ 
+
+    exibição : flexível;
+    flex-direction : coluna;
+    justificar-conteúdo : centro;
+    align-items : flex-start;
+}
+
+
+. filme-diretor . descrição {
+    margem superior :  10 px ;
+    margem inferior :  40 px ;
+}
+
+
+. filme-diretor . título {
+    margem superior :  15 % ;
+    tamanho da fonte :  40px ;
+    font-family :  'Trebuchet MS' , Arial , sans-serif;
+}
+
+. botao {
+    cor de fundo :  rgba ( 0 , 0 , 0 , .50 );
+    borda : nenhuma;
+    cor : branco;
+
+    preenchimento : 15px  30px ; _ _
+    margem direita :  15 px ;
+    tamanho da fonte :  12 px ;
+
+    cursor : ponteiro;
+    transição :  0,3 s facilita tudo;
+}
+
+. botao : hover {
+    cor de fundo : branco;
+    cor : preto;
+}
+
+. botao  eu {
+    margem direita :  8 px ;
+}
+
+
+. recipiente {
+    margem esquerda :  20 px ;
+}
+
+. filme-diretor . recipiente {
+    largura :  70 % ;
+}
+
+. filme-caixa {
+    altura :  100 % ;
+    largura :  100 % ;
+    exibição : bloco;
+    cursor : ponteiro;
+}
+
+
+. carrosel-filmes {
+    margem superior : 5 px ;
+}
