@@ -81,15 +81,3 @@ function iniciarJogo(){
 }
 
 let jogo = setInterval(iniciarJogo, 100);
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
